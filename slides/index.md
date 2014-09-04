@@ -1,10 +1,1 @@
-
-# Ampersand.js
-
-From the terminal, pop in:
-
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+![Ampersand.js](images/ampersand-at-the-beach.svg)
