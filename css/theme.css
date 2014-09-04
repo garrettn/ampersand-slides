@@ -8,6 +8,11 @@
 .reveal a:not(.image) {
   line-height: 1.3em; }
 
+.reveal section img.ampersand-logo {
+  background: none;
+  border: none;
+  box-shadow: none; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
