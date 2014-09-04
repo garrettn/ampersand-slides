@@ -17,5 +17,13 @@
         "collections.md",
         "collections-indexes.md",
         "collections-get-or-fetch.md"
+    ],
+    [
+        "views.md",
+        "views-templates.md",
+        "views-query.md",
+        "views-collection.md",
+        "views-bindings.md",
+        "views-other.md"
     ]
 ]
