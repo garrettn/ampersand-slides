@@ -25,5 +25,6 @@
         "views-collection.md",
         "views-bindings.md",
         "views-other.md"
-    ]
+    ],
+    "cli.md"
 ]
