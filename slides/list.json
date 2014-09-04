@@ -12,5 +12,10 @@
         "states-children.md",
         "states-getters-setters.md",
         "states-other.md"
+    ],
+    [
+        "collections.md",
+        "collections-indexes.md",
+        "collections-get-or-fetch.md"
     ]
 ]
