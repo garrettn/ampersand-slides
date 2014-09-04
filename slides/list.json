@@ -26,5 +26,6 @@
         "views-bindings.md",
         "views-other.md"
     ],
-    "cli.md"
+    "cli.md",
+    "example.md"
 ]
