@@ -3,5 +3,14 @@
     "title.html",
     "andyet.html",
     "another-one.html",
-    "features.md"
+    "features.md",
+    [
+        "states.md",
+        "states-properties.md",
+        "models-session.md",
+        "states-derived.md",
+        "states-children.md",
+        "states-getters-setters.md",
+        "states-other.md"
+    ]
 ]
