@@ -1,4 +1,4 @@
-##  Getters & setters
+###  Getters & setters
 
 Thank you, `Object.defineProperty`!
 
@@ -13,5 +13,5 @@ var person2 = new AmpersandPerson();
 
 // this is more like it!
 console.log(person2.name);
-person2.name = 'June'; // change event is still triggered!
+person2.name = 'June'; // `change` event is still triggered!
 ```

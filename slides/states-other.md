@@ -1,4 +1,4 @@
-##  Other niceties
+###  Other niceties
 
 - `typeAttribute`
 - `namespaceAttribute`
