@@ -10,7 +10,7 @@ module.exports = Model.extend({
     teacher: Teacher
   },
   collections: {
-    students: Student
+    students: Students
   }
 });
 ```
