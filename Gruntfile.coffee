@@ -30,7 +30,7 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-        
+
             sass:
                 files: ['css/source/theme.scss']
                 tasks: ['sass']
@@ -40,7 +40,7 @@ module.exports = (grunt) ->
             theme:
                 files:
                     'css/theme.css': 'css/source/theme.scss'
-        
+
         connect:
 
             livereload:
@@ -50,7 +50,7 @@ module.exports = (grunt) ->
                     # the server from outside.
                     hostname: '0.0.0.0'
                     base: '.'
-                    open: true
+                    open: false
                     livereload: false
 
         coffeelint:
@@ -90,7 +90,7 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-        
+
         buildcontrol:
 
             options:
@@ -102,7 +102,7 @@ module.exports = (grunt) ->
                 options:
                     remote: 'git@github.com:garrettn/ampersand-slides.git'
                     branch: 'gh-pages'
-        
+
 
 
     # Load all grunt tasks.
@@ -152,13 +152,13 @@ module.exports = (grunt) ->
             'copy'
         ]
 
-    
+
     grunt.registerTask 'deploy',
         'Deploy to Github Pages', [
             'dist'
             'buildcontrol'
         ]
-    
+
 
     # Define default task.
     grunt.registerTask 'default', [
