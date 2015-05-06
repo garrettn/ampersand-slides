@@ -7,11 +7,15 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 .reveal a:not(.image) {
   line-height: 1.3em; }
-
 .reveal section img.plain {
   background: none;
   border: none;
   box-shadow: none; }
+.reveal .pretitle {
+  display: block;
+  font-size: 0.5em; }
+.reveal .byline {
+  display: block; }
 
 /*********************************************
  * GLOBAL STYLES

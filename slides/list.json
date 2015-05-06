@@ -1,32 +1,33 @@
 [
     "index.html",
-    "title.html",
-    "andyet.html",
-    "another-one.html",
-    "features.md",
     [
-        "states.md",
-        "states-properties.md",
-        "models-session.md",
-        "states-derived.md",
-        "states-children.md",
-        "states-getters-setters.md",
-        "states-other.md"
+        "forget-frameworks.md",
+        "video-henrik-joreteg.html"
     ],
     [
-        "collections.md",
-        "collections-indexes.md",
-        "collections-get-or-fetch.md"
+        "ampersand-logo.html",
+        "no-ampersand.md",
+        "npm-modules.html",
+        "npm-framework.md",
+        "commonjs.md",
+        "extend.md",
+        "mixins.md"
     ],
     [
-        "views.md",
-        "views-templates.md",
-        "views-query.md",
-        "views-collection.md",
-        "views-bindings.md",
-        "views-other.md"
+        "problems.md",
+        "todomvc-jquery.md"
     ],
-    "cli.md",
-    "example.md",
-    "resources.md"
+    [
+        "problem-state.md"
+    ],
+    [
+        "problem-sync.md"
+    ],
+    [
+        "problem-view.md"
+    ],
+    [
+        "problem-react.md"
+    ],
+    "thank-you.md"
 ]
