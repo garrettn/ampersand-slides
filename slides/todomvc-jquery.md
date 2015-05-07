@@ -1,6 +1,6 @@
 ### Example: TodoMVC with jQuery
 
-```js
+<pre><code contenteditable>
 /*global jQuery, Handlebars */
 jQuery(function ($) {
     'use strict';
@@ -212,4 +212,4 @@ jQuery(function ($) {
 
     App.init();
 });
-```
+</code></pre>

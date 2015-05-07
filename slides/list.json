@@ -18,7 +18,11 @@
         "todomvc-jquery.md"
     ],
     [
-        "problem-state.md"
+        "problem-state.md",
+        "state-defining.md",
+        "state-using.md",
+        "collection-defining.md",
+        "collection-using.md"
     ],
     [
         "problem-sync.md"
@@ -29,5 +33,6 @@
     [
         "problem-react.md"
     ],
+    "todomvc-ampersand.md",
     "thank-you.md"
 ]
