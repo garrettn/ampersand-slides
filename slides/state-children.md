@@ -1,6 +1,6 @@
 ### ampersand-state: child models and collections
 
-<pre><code contenteditable>module.exports = AmpersandState.extend({
+<pre><code class="js" contenteditable>module.exports = AmpersandState.extend({
     // ...
     // child models
     children: {

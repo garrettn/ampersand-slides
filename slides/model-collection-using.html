@@ -1,0 +1,20 @@
+<pre><code class="js" contenteditable>var Things = require('./things');
+var things = new Things();
+
+// fetch collection from server
+things.fetch();
+
+var thing1 = things.get(1);
+
+// send PUT request to server
+thing1.save({name: 'thing bazillion'});
+
+// send DELETE request to server
+thing1.destroy();
+
+// send POST request with new data
+things.create({name: 'totally new thing this time'});
+
+// use lodash proxied methods
+var names = things.pluck('name');
+</code></pre>

@@ -30,7 +30,10 @@
         "collection-using.md"
     ],
     [
-        "problem-sync.md"
+        "problem-sync.md",
+        "model-collection-header.md",
+        "model-collection-defining.html",
+        "model-collection-using.html"
     ],
     [
         "problem-view.md"
