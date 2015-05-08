@@ -1,0 +1,23 @@
+<h3>events</h3>
+
+<pre><code class="js" contenteditable>module.exports = View.extend({
+    // ...
+    events: {
+        'click': 'showEntries',
+        'click [data-hook~=edit]': 'editThing',
+        'click [data-hook~=delete]': 'deleteThing'
+      },
+
+      showEntries: function (e) {
+        // ...
+      },
+
+      editThing: function () {
+        // ...
+      },
+
+      deleteThing: function () {
+        // ...
+      }
+    // ...
+});</code></pre>

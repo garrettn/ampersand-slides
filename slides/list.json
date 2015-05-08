@@ -36,7 +36,13 @@
         "model-collection-using.html"
     ],
     [
-        "problem-view.md"
+        "problem-view.md",
+        "view-header.md",
+        "view-rendering.html",
+        "view-bindings.html",
+        "view-events.html",
+        "view-subviews.html",
+        "view-using.html"
     ],
     [
         "problem-react.md"
