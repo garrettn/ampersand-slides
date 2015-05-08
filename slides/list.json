@@ -19,7 +19,12 @@
     ],
     [
         "problem-state.md",
-        "state-defining.md",
+        "state-collection-header.md",
+        "state-props.md",
+        "state-session.md",
+        "state-derived.md",
+        "state-children.md",
+        "state-initialize.md",
         "state-using.md",
         "collection-defining.md",
         "collection-using.md"
