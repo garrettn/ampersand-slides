@@ -13,10 +13,7 @@
         "extend.md",
         "mixins.md"
     ],
-    [
-        "problems.md",
-        "todomvc-jquery.md"
-    ],
+    "problems.md",
     [
         "problem-state.md",
         "state-collection-header.md",
@@ -49,6 +46,9 @@
         "react-mixin.html",
         "vdom-mixin.html"
     ],
-    "todomvc-ampersand.md",
+    [
+        "todomvc-jquery.md",
+        "todomvc-ampersand.md"
+    ],
     "thank-you.md"
 ]
