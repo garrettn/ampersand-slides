@@ -1,0 +1,13 @@
+<h3>ampersand-virtual-dom-mixin</h3>
+
+<pre><code class="js" contenteditable>var View = require('ampersand-view');
+var vdomMixin = require('ampersand-virtual-dom-mixin');
+
+module.exports = View.extend(vdomMixin, {
+    initialize: function () {
+        // re-render on all changes, and the
+        // virtual dom will take care of the rest!
+        this.on('change', this.render);
+    }
+});
+</code></pre>

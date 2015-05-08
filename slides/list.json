@@ -45,7 +45,9 @@
         "view-using.html"
     ],
     [
-        "problem-react.md"
+        "problem-react.md",
+        "react-mixin.html",
+        "vdom-mixin.html"
     ],
     "todomvc-ampersand.md",
     "thank-you.md"

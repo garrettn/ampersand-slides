@@ -1,0 +1,13 @@
+<h3>ampersand-react-mixin</h3>
+
+<pre><code class="jsx" contenteditable>var React = require('react');
+var ampersandMixin = require('ampersand-react-mixin');
+
+module.exports = React.createClass({
+    mixins: [ampersandMixin],
+    render: function () {
+        return (
+            <div>Hello, {this.props.name}!</div>
+        );
+    }
+});</code></pre>
