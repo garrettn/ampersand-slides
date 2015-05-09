@@ -1,0 +1,17 @@
+<h3>templates and rendering</h3>
+<pre><code class="js" contenteditable>var View = require('ampersand-view');
+
+module.exports = View.extend({
+    // template can be a string or function
+    template: someTemplate,
+
+    render: function () {
+        // replace this.el with rendered template
+        // and register event handlers
+        this.renderWithTemplate(this);
+
+        // return this to enable chaining
+        return this;
+    }
+});
+</code></pre>

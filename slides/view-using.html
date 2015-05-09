@@ -1,0 +1,16 @@
+<h3>Using ampersand-view</h3>
+
+<pre><code class="js" contenteditable>var Things = require('./things');
+var ThingsView = require('./things-view');
+
+var things = new Things();
+
+// passing in model or collection sets that as
+// a property on the view
+var view = new ThingsView({collection: things});
+
+// render the element and append it to the DOM
+document.body.appendChild(view.render().el);
+
+// remove view from the DOM and unregister event listeners
+view.remove();</code></pre>

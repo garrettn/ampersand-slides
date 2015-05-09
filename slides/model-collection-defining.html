@@ -1,0 +1,13 @@
+<pre><code class="js" contenteditable>var Model = require('ampersand-model');
+var Collection = require('ampersand-rest-collection');
+
+var Thing = Model.extend({
+   // props, session, derived, etc.
+});
+
+var Things = Collection.extend({
+    model: Thing,
+
+    // REST endpoint
+    url: '/api/v1/things'
+});</code></pre>

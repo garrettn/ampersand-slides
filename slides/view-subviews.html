@@ -1,0 +1,19 @@
+<h3>subviews</h3>
+
+<pre><code class="js" contenteditable>module.exports = View.extend({
+    // ...
+    subviews: {
+        things: {
+            hook: 'things',
+            prepareView: function (el) {
+                return new CollectionView({
+                    el: el,
+                    collection: this.collection,
+                    view: ThingView,
+                    reverse: true
+                });
+            }
+        }
+    }
+    // ...
+});</code></pre>

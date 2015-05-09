@@ -1,0 +1,25 @@
+<h3>bindings</h3>
+
+<pre><code class="js" contenteditable>module.exports = View.extend({
+    // ...
+    bindings: {
+      'model.name': {
+        type: 'text',
+        selector: '.group-name'
+      },
+      'model.enoughPeople': {
+        type: 'toggle',
+        hook: 'team-generator'
+      },
+      'model.teamSize': {
+        type: 'value',
+        hook: 'team-size'
+      },
+      'model.teamGeneratorUrl': {
+        type: 'attribute',
+        hook: 'team-generator-url',
+        name: 'href'
+      }
+    }
+    // ...
+});</code></pre>

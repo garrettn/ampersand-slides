@@ -1,32 +1,61 @@
 [
     "index.html",
-    "title.html",
-    "andyet.html",
-    "another-one.html",
-    "features.md",
     [
-        "states.md",
-        "states-properties.md",
-        "models-session.md",
-        "states-derived.md",
-        "states-children.md",
-        "states-getters-setters.md",
-        "states-other.md"
+        "forget-frameworks.md",
+        "video-henrik-joreteg.html",
+        "tweet1.html",
+        "tweet2.html",
+        "tweet3.html",
+        "five-minutes.md"
     ],
     [
-        "collections.md",
-        "collections-indexes.md",
-        "collections-get-or-fetch.md"
+        "ampersand-logo.html",
+        "no-ampersand.md",
+        "npm-modules.html",
+        "npm-framework.md",
+        "commonjs.md",
+        "extend.md",
+        "mixins.md"
+    ],
+    "problems.md",
+    [
+        "problem-state.md",
+        "state-collection-header.md",
+        "state-props.md",
+        "state-session.md",
+        "state-derived.md",
+        "state-children.md",
+        "state-initialize.md",
+        "state-using.md",
+        "collection-defining.md",
+        "collection-using.md"
     ],
     [
-        "views.md",
-        "views-templates.md",
-        "views-query.md",
-        "views-collection.md",
-        "views-bindings.md",
-        "views-other.md"
+        "problem-sync.md",
+        "model-collection-header.md",
+        "model-collection-defining.html",
+        "model-collection-using.html"
     ],
-    "cli.md",
-    "example.md",
-    "resources.md"
+    [
+        "problem-view.md",
+        "view-header.md",
+        "view-rendering.html",
+        "view-bindings.html",
+        "view-events.html",
+        "view-subviews.html",
+        "view-using.html"
+    ],
+    [
+        "problem-react.md",
+        "react-mixin.html",
+        "vdom-mixin.html"
+    ],
+    [
+        "todomvc-jquery.md",
+        "todomvc-ampersand.md"
+    ],
+    "conclusion.html",
+    "resources.md",
+    "thank-you.md",
+    "image-credits.md"
 ]
