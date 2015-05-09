@@ -2,7 +2,11 @@
     "index.html",
     [
         "forget-frameworks.md",
-        "video-henrik-joreteg.html"
+        "video-henrik-joreteg.html",
+        "tweet1.html",
+        "tweet2.html",
+        "tweet3.html",
+        "five-minutes.md"
     ],
     [
         "ampersand-logo.html",
@@ -50,6 +54,8 @@
         "todomvc-jquery.md",
         "todomvc-ampersand.md"
     ],
+    "conclusion.html",
+    "resources.md",
     "thank-you.md",
     "image-credits.md"
 ]
